@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: "https://enchanting-beignet-388991.netlify.app/",
+  origin: "https://enchanting-beignet-388991.netlify.app",
     credentials: true
 }));
 app.use(express.json());
